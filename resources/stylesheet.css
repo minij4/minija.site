@@ -53,9 +53,9 @@ img.wallpaper {
         height: 30px;
     }
     img.wallpaper {
-        position: absolute;
-        top: -100px;
-        visibility: hidden;
+        
+        visibility:hidden;
+        display:none;
     }
     nav ul li{
         font-size: 25px;
