@@ -26,7 +26,7 @@ a {
 a:hover, a:active{
     color: black;
 }
-nav ul li{
+.tab ul li{
     color: #FFF;
     font-family: "Anton",sans-serif;
     font-size: 20px;
@@ -35,7 +35,6 @@ nav ul li{
     display: inline-block;
     text-transform: uppercase;
     margin-right:30px;
-
 }
 img.wallpaper {
     width: 100%;
@@ -44,7 +43,23 @@ img.wallpaper {
     height: 30px;
 }
 
+footer {
 
+    opacity: 0.9;
+    background-color: #0f6d99;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    z-index:100;
+}
+li {
+    list-style-type: none;
+}
+.name {
+    text-align: right;
+    margin-right:40px;
+    
+}
 
 
 @media screen and (max-width:660px) 
