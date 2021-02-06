@@ -1,7 +1,7 @@
 
 # <img src="./resources/images/river-icon-png-4.jpg" width="40">[Minija.site](http://minija.site) project
 
-##### Website from scratch. Inspired by [codeacademy](http://codeacademy.com).
+##### Website from scratch. Inspired by [codecademy](https://www.codecademy.com/).
 
 
 
@@ -20,5 +20,5 @@
 
 
 
-## Project status : <span style="color:red;font-size:18px">*still building*</span>
+## Project status : *still building*
 

@@ -1,10 +1,13 @@
 body {
     color: white;
-    background: black;
+    background:#0f6d99;
     margin: 0;
     padding: 0;
    
 }
+
+/* header */
+
 header {
 
     opacity: 0.9;
@@ -32,24 +35,30 @@ a:hover, a:active{
     font-size: 20px;
     letter-spacing: 2px;
     font-weight: 300;
-    display: inline-block;
+    display: inline;
     text-transform: uppercase;
     margin-right:30px;
 }
+/* images */
+
 img.wallpaper {
     width: 100%;
+    height: 800px;
 }
 .listimg {
     height: 30px;
 }
+/* footer */
 
 footer {
-
+    font-size: 10px;
+    letter-spacing: 3px;
     opacity: 0.9;
     background-color: #0f6d99;
     position:fixed;
     bottom: 0;
     width: 100%;
+    height: 30px;
     z-index:100;
 }
 li {
@@ -57,20 +66,70 @@ li {
 }
 .name {
     text-align: right;
-    margin-right:40px;
+    margin-right:20px;
     
 }
 
+/* main section */
+section {
+    
+    background:#0d7db1;
+    position: absolute;
+    right: 100px;
+    left: 100px;
+    top: 40px;
+    
+    
+}
+section .me{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: 100px;
+    padding: 70px 0;
+}
 
-@media screen and (max-width:660px) 
+/* about me*/
+.about_me {
+    position: absolute;
+    top: 40px;
+    left: 400px;
+    font-family: "Anton",sans-serif;
+    font-weight:normal;
+    letter-spacing: 10px;
+  
+}
+.about_me:hover, .about_me:active{
+    color: black;
+}
+.about_me_paragraph {
+    position: absolute;
+    top: 100px;
+    left: 15px;
+    right: 400px;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 3px;
+}
+.about_me_paragraph li:hover, .about_me_paragraph li:active{
+    color: black;
+}
+dfn {
+    color: black;
+}
+dfn:hover, dfn:active {
+    color: white;
+}
+
+/* mobile screen */
+
+@media screen and (max-width:930px) 
 {
+    img.wallpaper {
+        width: 100%;
+        height: auto;
+    }
     .listimg {
         height: 30px;
-    }
-    img.wallpaper {
-        
-        visibility:hidden;
-        display:none;
     }
     nav ul li{
         font-size: 25px;
