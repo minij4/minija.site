@@ -10,6 +10,9 @@ body {
     color: white;
 
 }
+main {
+    padding-bottom: 20px;
+}
 /* header *********************************************************************************************************************************************************/
 .tab {
     background-color: #0f6d99;
@@ -59,8 +62,9 @@ body {
     margin-right:auto;
     margin-left:auto;
     margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
-    overflow:auto;
+    overflow: hidden;
 }
 .about_me ul{
     margin-left:20px;
