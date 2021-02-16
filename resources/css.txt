@@ -1,0 +1,225 @@
+body {
+    color: white;
+    background: black;
+    margin: 0;
+    padding: 0;
+   
+}
+header {
+
+    opacity: 0.9;
+    background-color: #0f6d99;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index:100;
+    
+}
+body{
+    position: relative;
+    top: 68px;
+}
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+a:hover, a:active{
+    color: black;
+}
+nav ul li{
+    color: #FFF;
+    font-family: "Anton",sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right:30px;
+
+}
+img.wallpaper {
+    width: 100%;
+}
+.listimg {
+    height: 30px;
+}
+
+
+
+
+@media screen and (max-width:660px) 
+{
+    .listimg {
+        height: 30px;
+    }
+    img.wallpaper {
+        visibility: hidden;
+    }
+    nav ul li{
+        font-size: 25px;
+
+    }
+    body{
+        position:absolute;
+        top: 0px;
+        margin-block-start: 0px;
+        margin-block-end: 0;
+    }
+    header {
+
+        opacity: 0.9;
+        background-color: #0f6d99;
+        position:absolute;
+        top:0;
+        width: 100%;
+        text-align: center;      
+    }
+    nav ul li{
+        color: #FFF;
+        font-family: "Anton",sans-serif;
+        font-size: 20px;
+        letter-spacing: 2px;
+        font-weight: 300;
+        display: block;
+        text-transform: uppercase;
+        margin-right:30px;
+    
+    }
+ 
+    ul {
+        margin:0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    color: white;
+    background:#0f6d99;
+    margin: 0;
+    padding: 0;
+    background: url("../resources/images/wp4535707.jpg");
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+/* header */
+
+header {
+
+    opacity: 0.9;
+    background-color: #0f6d99;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index:100;
+    
+}
+body{
+    position: relative;
+    top: 68px;
+}
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+a:hover, a:active{
+    color: black;
+}
+.tab ul li{
+    color: #FFF;
+    font-family: "Anton",sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    display: inline;
+    text-transform: uppercase;
+    margin-right:30px;
+}
+/* images */
+
+.listimg {
+    height: 30px;
+}
+/* footer */
+
+footer {
+    font-size: 10px;
+    letter-spacing: 3px;
+    opacity: 0.9;
+    background-color: #0f6d99;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    z-index:100;
+}
+li {
+    list-style-type: none;
+}
+.name {
+    text-align: right;
+    margin-right:20px;
+}
+
+/* main section */
+section {
+    
+    background:#0d7db1;
+    position: absolute;
+    right: 100px;
+    left: 100px;
+    top: 25px;
+}
+section .me{
+    height: 400px;            
+    float: right;
+    padding: 25px 50px 50px 50px;
+}
+
+/* about me*/
+.about_me {
+    
+    text-align: center;
+    font-family: "Anton",sans-serif;
+    font-weight:normal;
+    letter-spacing: 10px;
+  
+}
+.about_me:hover, .about_me:active{
+    color: black;
+}
+.about_me_paragraph {
+    position: relative;
+    top: 50px;
+    left: 15px;
+    width: 500px;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 3px;
+}
+.about_me_paragraph li:hover, .about_me_paragraph li:active{
+    color: black;
+}
+dfn {
+    color: black;
+}
+dfn:hover, dfn:active {
+    color: white;
+}

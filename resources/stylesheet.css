@@ -1,91 +1,53 @@
 * {
-    margin:0;
-    padding: 0;
-    ​box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
-html {
-    height: 100%;
-    padding-bottom: 20px;
-}
-
 body {
-    position: relative;
-    top: 60px;
+    background:url("../resources/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     color: white;
-    background:url("../resources/images/wp4535707.jpg") no-repeat fixed center center transparent;
-    line-height: auto;
+
+    
 }
-/* header *********************************************************************************************************************************************************/
-.tab {
-    background-color: #0f6d99;
+hr {
+    border-width: 2px;
+}
+/* header */
+.header {
     position: fixed;
-    top: 0;
+    z-index: 100;
     width: 100%;
-}
-.tab ul li {
-    display: inline-block;
-    text-align:center;
-    padding: 10px;
+    font-family: "Anton", sans-serif;
     font-size: 20px;
-    font-family: "Anton", serif;
-    text-transform:uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
-.tab ul li a {
+.header ul li {
     text-decoration: none;
-    color: white;
-}
-.listimg {
-    height: 30px;
-}
-
-/* footer ***********************************************************************************************************************************************************/
-
-.footer{
-    position: fixed;
-    bottom: 0;
-    background:#0f6d99;
-    width: 100%;
-    text-align: right;
-}
-
-.rights{
-    margin-right: 20px;
-}
-
-
-/* ABOUT ME MAIN ************************************************************************************************************************************************************/
-
-.about_me {
-    font-family:"Roboto", serif;
-    background-color:#1e8ba4;
-    width: 80%;
-    display: block;
-    margin-right:auto;
-    margin-left:auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: flex;
-    overflow: hidden;
-}
-.about_me ul{
-    margin-left:auto;
-}
-
-.about_me h1 {
-    font-family: "Roboto", serif;
-    text-align: center;
-}
-.align {
-    padding: 20px 20px;
-}
-.me {
-    height: 30vw;
-    margin-top: 60px;
-}
-.about_me ul{
-    margin-top: 30px;
-}
-.about_me ul li {
     list-style-type: none;
+    color: white;
+    display: inline-block;
+    padding: 15px;
 }
+.header ul img{
+    height: 15px;
+    margin-bottom: 10px;
+}
+/* main */
+main {
+    position: relative;
+    top: 80px;
+}
+
+/* main about */
+
+.aboutme {
+    background-color: hsla(220, 40%, 40%, 0.8);
+}
+.aboutme img {
+    height: 40vw;
+}
+/* footer */
+
